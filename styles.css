@@ -29,7 +29,8 @@ header{
     align-items: center;
     list-style: none;
     background-color: #04293A;
-    font-family:sans-serif
+    font-family:sans-serif;
+    margin-bottom: auto;
 }
 
 #navbarLinksList{
@@ -65,15 +66,38 @@ height: 30pc;
 font-family: sans-serif;
 color: #FF6E31;
 display: flex;
-justify-content: center;
+justify-content: start;
 align-items: center;
 padding: auto 50px;
+flex-direction: column;
 }
 
 #current-time{
-    font-size: 7pc;
+    font-size: 1pc;
     letter-spacing: 4px;
 }
+
+.card-firstSection{
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    width: 25%;
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    top: 6pc;
+    left: 6pc;
+    height: 30%;
+    color: #FF6E31;
+    background-color: #04293A;
+}
+
+.date-time{
+    margin: 1.5vh;
+}
+
+/* SECOND SECTION */
 
 #secondSection{
     background-color: lightblue;
@@ -83,7 +107,7 @@ padding: auto 50px;
     align-items: center;
     }
 
-.card{
+.card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 10px;
@@ -101,6 +125,8 @@ padding: auto 50px;
 .container{
     padding: 2px 16px;
 }
+
+
 
 
 #thirdSection{

@@ -4,7 +4,7 @@ This page should not be linked to the website upon completion.
 */
 
 //Code for dynamic time in nav bar
-let time = document.getElementById("current-time-nav");
+let time = document.getElementById("current-time");
 
 setInterval(() => {
     let d = new Date();
@@ -12,7 +12,7 @@ setInterval(() => {
 },1000);
 
 //Code to get todays date
-let date = document.getElementById("current-time");
+let date = document.getElementById("current-date");
 
     let x = new Date();
     date.innerHTML = x.toLocaleDateString();
