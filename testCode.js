@@ -1,4 +1,7 @@
-
+/*
+This is a playground page for useful JS code snippets from online tutorials.
+This page should not be linked to the website upon completion.
+*/
 
 //Code for dynamic time in nav bar
 let time = document.getElementById("current-time-nav");
